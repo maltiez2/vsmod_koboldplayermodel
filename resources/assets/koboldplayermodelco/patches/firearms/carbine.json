@@ -1,0 +1,37 @@
+﻿[
+  {
+    "file": "maltiezfirearms:config/animations/carbine",
+    "op": "replace",
+    "path": "/firearms-carbine-aim",
+    "value": {
+      "Hold": true,
+      "PlayerKeyFrames": [
+        {
+          "EasingTime": 300,
+          "EasingFunction": "Sin",
+          "DetachedAnchor": false,
+          "SwitchArms": false,
+          "PitchFollow": true,
+          "PitchDontFollow": false,
+          "FOVMultiplier": 0.85,
+          "BobbingAmplitude": 0.65,
+          "Elements": {
+            "ItemAnchor": [-0.01, 3.22, 1.2, 10.6, 25, 151.6],
+            "LowerArmR": [0, 0, 0, 0, 0, -111],
+            "UpperArmR": [0, 0, 0, 0, 23, -34],
+            "ItemAnchorL": [0, 0, 0, 0, 0, 0],
+            "LowerArmL": [0, 0, 0, 0, 0, -17],
+            "UpperArmL": [0, 0, 0, 0, -10, -92],
+            "UpperTorso": [0, 0, 0, 0, 0, 0]
+          }
+        }
+      ],
+      "ItemKeyFrames": [],
+      "SoundFrames": [],
+      "ParticlesFrames": [],
+      "CallbackFrames": [],
+      "ItemAnimationStart": -1,
+      "ItemAnimationEnd": -1
+    }
+  }
+]
